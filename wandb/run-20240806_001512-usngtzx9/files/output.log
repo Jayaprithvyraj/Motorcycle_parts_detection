@@ -1,0 +1,12 @@
+Freezing layer 'model.22.dfl.conv.weight'
+WARNING  updating to 'imgsz=1600'. 'train' and 'val' imgsz must be an integer, while 'predict' and 'export' imgsz may be a [h, w] list or an integer, i.e. 'yolo export imgsz=640,480' or 'yolo export imgsz=640'
+[34m[1mtrain: [39m[22mScanning C:\Users\jayap\Downloads\ML_Projects\Underwater_Object_Detection\aquarium_pretrain\train\labels.cache... 448 images, 1 backgrounds, 0 corrupt: 100%|██████████| 448/448 [00:00<?, ?it/s]
+[34m[1mval: [39m[22mScanning C:\Users\jayap\Downloads\ML_Projects\Underwater_Object_Detection\aquarium_pretrain\valid\labels.cache... 127 images, 0 backgrounds, 0 corrupt: 100%|██████████| 127/127 [00:00<?, ?it/s]
+Plotting labels to runs\detect\yolov8n_custom\labels.jpg...
+[34m[1moptimizer:[39m[22m 'optimizer=auto' found, ignoring 'lr0=0.01' and 'momentum=0.937' and determining best 'optimizer', 'lr0' and 'momentum' automatically...
+[34m[1moptimizer:[39m[22m AdamW(lr=0.000909, momentum=0.9) with parameter groups 57 weight(decay=0.0), 64 weight(decay=0.0005), 63 bias(decay=0.0)
+Image sizes 1600 train, 1600 val
+Using 0 dataloader workers
+Logging results to [1mruns\detect\yolov8n_custom
+Starting training for 5 epochs...
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
